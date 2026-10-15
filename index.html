@@ -9,7 +9,7 @@
 <body>
   <main>
     <section id="matricula" aria-labelledby="titulo-matricula">
-      <form class="formulario" action="#" method="post">
+      <form class="formulario" action="#" method="post" target="destino-oculto">
         <header class="formulario__encabezado">
           <img class="formulario__icono" src="img/carro.svg" alt="" width="56" height="56">
           <h1 id="titulo-matricula">Solicitud de matrícula</h1>
@@ -51,6 +51,7 @@
         <button type="submit" class="boton">Enviar solicitud</button>
       </form>
     </section>
+    <iframe name="destino-oculto" title="Destino oculto del formulario" hidden></iframe>
   </main>
 </body>
 </html>
